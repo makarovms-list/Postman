@@ -35,11 +35,15 @@
 13.	В поле "Enter request URL" вводим базовый URL API - https://blog.kata.academy/api/users/login. В выпадающем меню выбираем метод "POST".
 14.	В разделе "Body" выбираем формат данных "JSON (application/json)".
 15.	В поле для ввода данных в формате JSON вводим необходимые параметры для аутентификации пользователя, например:
-16.	{
-17.	    "user": {
-18.	        "email": "makarovms@list.ru",
-19.	        "password": "password"
-20.	    }
-21.	}
+16.	
+```javascript
+	{
+	    "user": {
+	        "email": "makarovms@list.ru",
+	        "password": "password"
+	    }
+	}
+```
+
 16.	Нажимаем кнопку "Send". В ответ получаем JSON с данными о текущем пользователе.
 ![](4.png)
